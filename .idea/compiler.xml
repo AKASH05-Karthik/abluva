@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mssql-proxy" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mssql-proxy" options="--add-exports org.graalvm.truffle/com.oracle.truffle.api.debug=com.galliumdata.engine --add-exports org.graalvm.truffle/com.oracle.truffle.api.source=com.galliumdata.engine --add-exports org.graalvm.truffle/com.oracle.truffle.api.instrumentation=com.galliumdata.engine" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+--add-exports
+org.graalvm.truffle/com.oracle.truffle.api.debug=com.galliumdata.engine
+--add-exports
+org.graalvm.truffle/com.oracle.truffle.api.source=com.galliumdata.engine
+--add-exports
+org.graalvm.truffle/com.oracle.truffle.api.instrumentation=com.galliumdata.engine

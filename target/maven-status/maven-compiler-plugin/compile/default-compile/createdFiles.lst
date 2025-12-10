@@ -1,0 +1,10 @@
+com\galliumdata\server\rest\RestManager.class
+com\galliumdata\server\ServerException.class
+com\galliumdata\server\Zippable.class
+com\galliumdata\server\OutgoingConnection.class
+com\galliumdata\telemetry\TelemetryNewRelicService.class
+com\galliumdata\server\MSSQLProxyMain.class
+com\galliumdata\server\locale\I18nManager.class
+com\galliumdata\server\security\KeyLoaderManager.class
+com\galliumdata\server\settings\SettingName.class
+com\galliumdata\server\settings\SettingsManager.class
